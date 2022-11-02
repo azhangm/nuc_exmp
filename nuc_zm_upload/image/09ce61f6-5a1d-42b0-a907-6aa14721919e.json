@@ -1,0 +1,23 @@
+{
+// 项目基本信息
+  "name": "vue_proj1",
+  "version": "0.1.0",
+  "private": true,
+// 指定的运行的脚本命令
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  // 生成环境以来的模块版本
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
+  },
+  开发环境所使用的依赖版本
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}
