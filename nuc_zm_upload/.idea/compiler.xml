@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nuc_zm_mybatis" />
         <module name="nuc_zm_upload" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nuc_zm_mybatis" options="-parameters" />
       <module name="nuc_zm_upload" options="-parameters" />
     </option>
   </component>
